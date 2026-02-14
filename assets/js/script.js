@@ -117,7 +117,7 @@ button_yes.addEventListener('click', () =>{
     // button_area.textContent = "Let's meet at our favorite place at 1:00 PM, See you! <3";
     question.textContent = "YAY!"
     setTimeout(() => {
-        image.src = 'assets/images/content-pics/img-8.jpg';
+        image.src = 'assets/images/content-pics/img-8.jpeg';
         image.classList.remove('fade');
     }, 180 )
 });
