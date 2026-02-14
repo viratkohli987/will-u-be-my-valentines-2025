@@ -55,7 +55,7 @@ function changeImage() {
         question.textContent = "Please, don’t leave me hanging...";
     }
     setTimeout(() => {
-        image.src = 'assets/images/content-pics/img-2.jpg';
+        image.src = 'assets/images/content-pics/img-5.jpg';
         image.classList.remove('fade');
     }, 180); 
 }
