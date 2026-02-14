@@ -39,21 +39,21 @@ function changeImage() {
     if (imagePhase == 1) {
         question.textContent = "Please no, don't say no!";
     }
-    else if (imagePhase == 2) {
-        question.textContent = "Don't break my heart...";
-    }
-    else if (imagePhase == 3) {
-        question.textContent = "You’re my only hope...";
-    }
-    else if (imagePhase == 4) {
-        question.textContent = "Please, I’m begging you...";
-    }
-    else if (imagePhase == 5) {
-        question.textContent = "You’re all I want...";
-    }
-    else if (imagePhase == 6) {
-        question.textContent = "Please, don’t leave me hanging...";
-    }
+    // else if (imagePhase == 2) {
+    //     question.textContent = "Don't break my heart...";
+    // }
+    // else if (imagePhase == 3) {
+    //     question.textContent = "You’re my only hope...";
+    // }
+    // else if (imagePhase == 4) {
+    //     question.textContent = "Please, I’m begging you...";
+    // }
+    // else if (imagePhase == 5) {
+    //     question.textContent = "You’re all I want...";
+    // }
+    // else if (imagePhase == 6) {
+    //     question.textContent = "Please, don’t leave me hanging...";
+    // }
     setTimeout(() => {
         image.src = 'assets/images/content-pics/img-5.jpg';
         image.classList.remove('fade');
