@@ -67,26 +67,26 @@ function backtoImage() {
             image.src = 'assets/images/content-pics/img-1.jpg';
             question.textContent = "Will you be my valentine?";
         }
-        else if (imagePhase == 2) {
-            image.src = 'assets/images/content-pics/img-3.jpg';
-            question.textContent = "I really like you, please?";
-        }
-        else if (imagePhase == 3) {
-            image.src = 'assets/images/content-pics/img-4.jpg';
-            question.textContent = "I can't imagine a day without you!";
-        }
-        else if (imagePhase == 4) {
-            image.src = 'assets/images/content-pics/img-5.jpg';
-            question.textContent = "Please, I just need this from you.";
-        }
-        else if (imagePhase == 5) {
-            image.src = 'assets/images/content-pics/img-6.jpg';
-            question.textContent = "I promise I'll be the best Valentine ever!";
-        }
-        else if (imagePhase == 6) {
-            image.src = 'assets/images/content-pics/img-7.jpg';
-            question.textContent = "I’ll do anything, just say yes!";
-        }
+        // else if (imagePhase == 2) {
+        //     image.src = 'assets/images/content-pics/img-3.jpg';
+        //     question.textContent = "I really like you, please?";
+        // }
+        // else if (imagePhase == 3) {
+        //     image.src = 'assets/images/content-pics/img-4.jpg';
+        //     question.textContent = "I can't imagine a day without you!";
+        // }
+        // else if (imagePhase == 4) {
+        //     image.src = 'assets/images/content-pics/img-5.jpg';
+        //     question.textContent = "Please, I just need this from you.";
+        // }
+        // else if (imagePhase == 5) {
+        //     image.src = 'assets/images/content-pics/img-6.jpg';
+        //     question.textContent = "I promise I'll be the best Valentine ever!";
+        // }
+        // else if (imagePhase == 6) {
+        //     image.src = 'assets/images/content-pics/img-7.jpg';
+        //     question.textContent = "I’ll do anything, just say yes!";
+        // }
         image.classList.remove('fade');
     }, 180); 
 }
